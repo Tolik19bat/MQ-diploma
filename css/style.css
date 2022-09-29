@@ -1,4 +1,4 @@
-/*================== BODY ====================================================================*/
+/*==== BODY ====================================================================*/
 body {
    font-family: "open sans regular", sans-serif;
    margin: 0;
@@ -7,10 +7,10 @@ body {
 *,
 *::after,
 *::before {
+   box-sizing: border-box;
    padding: 0px;
    margin: 0;
    border: 0px;
-   box-sizing: border-box;
 }
 
 a {
@@ -31,18 +31,26 @@ h3,
 h4,
 h5,
 h6 {
-   margin: 0px;
    font-family: "Open Sans Bold";
+   margin: 0px;
+}
+
+h2 {
+   line-height: 1;
+}
+
+h3 {
+   line-height: 1;
 }
 
 h4 {
-   text-align: center;
    text-transform: uppercase;
+   text-align: center;
    font-size: 18px;
 }
 
-/* =========================== body end ==========*/
-/*========== COMMON ==========*/
+/* ===== body end ==========*/
+/*==========fonts=========*/
 @font-face {
    font-family: "Open Sans Regular";
    src: url("../fonts/OpenSans-Regular.woff") format("woff");
@@ -57,29 +65,27 @@ h4 {
    font-style: normal;
 }
 
-@media (min-width: 220px) and (max-width: 640px) {
+@media (max-width: 640px) {
 
-   /*====================================================header===*/
+   /*=======header===*/
    .header {
       background-image: url(../images/banner-mobile.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-color: #666666;
-      max-width: 360px;
-      margin: auto;
-      display: block;
-      background-position: cover;
-      /* height: 640px; */
-      /* background-size: cover; */
-      /* box-sizing: border-box; */
+      background-size: cover;
       position: relative;
+      max-width: 360px;
+      display: block;
+      margin: auto;
       z-index: 0;
    }
 
    .header::before {
       content: "";
-      display: block;
       background-color: black;
+      position: absolute;
+      display: block;
       left: 0px;
       top: 0px;
       width: 100%;
@@ -87,18 +93,15 @@ h4 {
       bottom: 0px;
       opacity: 0.6;
       z-index: 1;
-      position: absolute;
    }
 
    .header-container {
       display: flex;
+      justify-content: center;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      /* width: 1200px; */
-      padding: 0px 15px;
-      /* margin: auto; */
       position: relative;
+      padding: 0px 15px;
       z-index: 30;
       height: 640px;
    }
@@ -108,50 +111,198 @@ h4 {
    }
 
    .header-logo-image {
-      max-width: 260px;
       margin-bottom: 40px;
+      max-width: 260px;
    }
 
    .header-title {
+      font-family: "open sans bold", sans-serif;
+      text-transform: uppercase;
       text-align: center;
       color: #ffffff;
       line-height: 1.7;
       font-size: 24px;
-      text-transform: uppercase;
-      font-family: "open sans bold", sans-serif;
    }
 
-   /*=========================================header end===*/
-   /*=================================main===*/
+   /*=====header end===*/
+   /*=======================main===*/
+   /*=================trends===*/
    .news-posts-title {
-      color: #000;
-      font-size: 20px;
       font-family: inherit;
+      margin-bottom: 40px;
       font-weight: 700;
       margin-top: 40px;
-      margin-bottom: 40px;
+      font-size: 20px;
+      color: #000;
    }
 
    .news-posts-title::after {
       content: "";
-      display: block;
+      background-color: #e1d9bd;
       margin: 10px auto 30px auto;
+      display: block;
       width: 65px;
       height: 2px;
-      background-color: #e1d9bd;
    }
 
-   /* ================================article===*/
-   .content-wrapper {
+   /*=================green garden===*/
+   .box-green-garden {
+      background-image: url(../images/trend1.jpg);
+      background-repeat: no-repeat;
+      background-color: #fbfff1;
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto 4px auto;
+      position: relative;
       max-width: 360px;
-      padding: 0px 15px;
+      height: 230px;
+      z-index: 0;
+   }
+
+   .box-green-garden::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      display: block;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 232px;
+      bottom: 0px;
+      opacity: 0.6;
+      z-index: 1;
+   }
+
+   /*=======================beautiful picture===*/
+   .box-beautiful-pictures {
+      background-image: url(../images/trend2.jpg);
+      background-repeat: no-repeat;
+      background-color: #b8bbb1;
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0px auto 5px auto;
+      position: relative;
+      max-width: 360px;
+      height: 230px;
+      z-index: 0;
+   }
+
+   .box-beautiful-pictures::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      display: block;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 232px;
+      bottom: 0px;
+      opacity: 0.6;
+      z-index: 1;
+   }
+
+   /*=========first trip===*/
+   .box-trip {
+      background-image: url(../images/trend3.jpg);
+      background-repeat: no-repeat;
+      background-color: #b8bbb1;
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto 4px auto;
+      position: relative;
+      max-width: 360px;
+      height: 230px;
+      z-index: 0;
+   }
+
+   .box-trip::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      display: block;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 232px;
+      bottom: 0px;
+      opacity: 0.6;
+      z-index: 1;
+   }
+
+   /*=======================vitamins===*/
+   .box-vitamins {
+      background-image: url(../images/trend4.jpg);
+      background-repeat: no-repeat;
+      background-color: #b8bbb1;
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto 4px auto;
+      position: relative;
+      max-width: 360px;
+      height: 230px;
+      z-index: 0;
+   }
+
+   .box-vitamins::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      display: block;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 232px;
+      bottom: 0px;
+      opacity: 0.6;
+      z-index: 1;
+   }
+
+   /*==vitamins end===*/
+   /*================common=====*/
+   .trend-container {
+      border: 2px solid #b59a4b;
+      padding: 0px 25px 30px 25px;
+      margin: 80px 15px 15px 15px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-direction: column;
+      position: absolute;
+      z-index: 30;
+   }
+
+   .trend-title {
+      text-transform: uppercase;
+      font-family: inherit;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 16px;
+   }
+
+   /*==common end===*/
+   .row-tags {}
+
+   .list-tags {}
+
+   .item-tag {}
+
+   .item-tag-link {}
+
+   /* ===============article===*/
+   .content-wrapper {
+      padding: 0px 15px 0px 15px;
+      max-width: 360px;
       margin: auto;
    }
 
    .content {
-      max-width: 330px;
       box-sizing: border-box;
       margin: 35px 0 20px 0;
+      max-width: 330px;
    }
 
    .content-picture {
@@ -182,7 +333,7 @@ h4 {
       font-family: inherit;
       color: #b59a4b;
       font-weight: 700;
-      font-size: 10px;
+      font-size: 15px;
    }
 
    .list-tags :not( :first-child) {
@@ -190,20 +341,15 @@ h4 {
    }
 
    .item-tag-link:hover {
-      color: #b59a4b;
       text-decoration: underline;
+      color: #b59a4b;
    }
 
    .title {
       text-transform: uppercase;
       color: #000000;
-      font-family: inherit;
       font-weight: 700;
       font-size: 20px;
-   }
-
-   h2 {
-      line-height: 1;
    }
 
    .post-info {
@@ -216,26 +362,216 @@ h4 {
    }
 
    .post-autor {
+      font-weight: 700;
       font-size: 12px;
    }
 
    .post-text {
-      font-size: 14px;
+      font-weight: 400;
+      font-size: 15px;
    }
 
    .post-text::after {
       content: "";
-      display: block;
+      background-color: #eeeeee;
       margin: 20px auto 35px auto;
+      display: block;
       width: 330px;
       height: 3px;
-      background-color: #eeeeee;
    }
 
-   /*===========================trends===*/
-   /*
+   /*============article end===*/
+   /*=======================section-sidebar===*/
+   .section-sidebar {
+      max-width: 360px;
+      padding: 0px 15px;
+      margin: auto;
+   }
 
-*/
+   .news-posts {
+      display: flex;
+   }
+
+   .news-posts:not( :first-child) {
+      margin: 20px 0px 0px 0px;
+   }
+
+   .news-post-date {
+      margin-left: 20px;
+   }
+
+   .post-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      color: #000;
+   }
+
+   /*================================search===*/
+   .search__form {
+      position: relative;
+      margin-top: 62px;
+      margin-bottom: 60px;
+   }
+
+   .search__form_input {
+      background-color: #f4f7f6;
+      border: 1px solid #f4f7f6;
+      box-sizing: border-box;
+      border-radius: 3px;
+      padding-left: 10px;
+      position: relative;
+      font-size: 20px;
+      outline: none;
+      width: 282px;
+      height: 48px;
+      z-index: 1;
+   }
+
+   .search__form_input:focus {
+      border: 1px solid #b59a4b;
+   }
+
+   .search__form_button {
+      background-image: url(../svg/search.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-color: #b59f5b;
+      background-size: 20px;
+      border-radius: 3px;
+      position: absolute;
+      cursor: pointer;
+      height: 47px;
+      width: 47px;
+      right: 0;
+      margin: 0;
+      z-index: 30;
+   }
+
+   .search__form_button:hover {
+      background-color: #292314;
+   }
+
+   .visually-hidden {
+      clip: rect(0 0 0 0);
+      position: absolute;
+      overflow: hidden;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+   }
+
+   /*==search end====================================================================*/
+   /*=============mailing===========================================*/
+   .email__input {
+      background-color: #f4f7f6;
+      border: 1px solid #f4f7f6;
+      box-sizing: border-box;
+      border-radius: 3px;
+      padding-left: 5px;
+      outline: none;
+      width: 330px;
+      height: 47px;
+      font-size: 18px;
+   }
+
+   .email__input:focus {
+      border: 1px solid #b59a4b;
+   }
+
+   .subscription_button {
+      background-color: #b59a4b;
+      text-transform: uppercase;
+      font-family: inherit;
+      border-radius: 3px;
+      color: #ffffff;
+      cursor: pointer;
+      margin-top: 16px;
+      width: 330px;
+      height: 47px;
+      font-size: 700;
+   }
+
+   .subscription_button:hover {
+      background-color: #292314;
+   }
+
+   /*===mailing end=============================*/
+   /*==================tags======================*/
+   .tags-list {
+      max-width: 360px;
+      
+      padding: 0px 15px;
+   }
+
+   .list {
+      display: flex;
+      flex-wrap: wrap;
+      height: 80px;
+   }
+
+   .link-tag-list {
+      border: 2px solid #f4f7f6;
+      border: 4px solid #eeeeee;
+      text-transform: uppercase;
+      margin: 0px 6px;
+      border-radius: 1px;
+      padding: 4px 11px;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 3;
+      color: #000;
+   }
+
+   .link-tag-list:hover {
+      border: 4px solid #b59a4b;
+   }
+
+   /*===tags end=================================*/
+   /* ==========topic======================================================= */
+   .topic-wrap {
+      max-width: 360px;
+      padding: 0px 15px;
+   }
+
+   .topic-item {
+      padding-bottom: 30px;
+      position: relative;
+      font-weight: 700;
+      display: flex;
+   }
+
+   .topic-item-link {
+      color: #000;
+      font-size: 17px;
+   }
+
+   .topic-item-link:hover {
+      color: #b59a4b;
+      font-size: 17px;
+   }
+
+   .topic-item::after {
+      content: '';
+      background-color: #eeeeee;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      top: 30px;
+   }
+
+   .topic-item-counter {
+      position: relative;
+      color: #b59a4b;
+      margin-top: -8px;
+      font-size: 12px;
+      top: 0;
+   }
+
+   /* ===topic end=======================================================*/
+   */
    /* .trends { */
    background-image: url(../images/trend1.jpg);
    background-position: center center;
@@ -593,10 +929,11 @@ h3 {
 .link-tag-list:hover {
    border: 4px solid #b59a4b;
 }
-
+/*
 /* ================ tags end === */
 /* ============================= TOPIC ======================================================= */
 /*
+
 .topic__item {
    font-weight: 700;
    padding-bottom: 30px;
