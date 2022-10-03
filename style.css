@@ -127,6 +127,7 @@ h4 {
    /*=====header end===*/
    /*=======================main===*/
    /*=================trends===*/
+   /*=======trends title=======*/
    .news-posts-title {
       font-family: inherit;
       margin-bottom: 40px;
@@ -145,6 +146,7 @@ h4 {
       height: 2px;
    }
 
+   /*=====trends title end===============*/
    /*=================green garden===*/
    .box-green-garden {
       background-image: url(../images/trend1.jpg);
@@ -262,7 +264,7 @@ h4 {
    }
 
    /*==vitamins end===*/
-   /*================common=====*/
+   /*================common trends=====*/
    .trend-container {
       border: 2px solid #b59a4b;
       padding: 0px 25px 30px 25px;
@@ -283,14 +285,8 @@ h4 {
       font-size: 16px;
    }
 
-   /*==common end===*/
-   .row-tags {}
+   /*==common title end===*/
 
-   .list-tags {}
-
-   .item-tag {}
-
-   .item-tag-link {}
 
    /* ===============article===*/
    .content-wrapper {
