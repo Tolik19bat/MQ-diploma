@@ -129,7 +129,6 @@ h4 {
    /*====================trends===*/
    /*===trends title=======*/
    .news-posts-title {
-      font-family: inherit;
       margin-bottom: 40px;
       font-weight: 700;
       margin-top: 40px;
@@ -149,7 +148,7 @@ h4 {
    /*=====trends title end===============*/
    /*=================green garden===*/
    .box-green-garden {
-      background-image: url(images/trend1.jpg);
+      background-image: url(../images/trend1.jpg);
       background-repeat: no-repeat;
       background-color: #fbfff1;
       background-size: cover;
@@ -377,7 +376,7 @@ h4 {
    /*============article end===*/
    /*=======================section-sidebar===*/
    .section-sidebar {
-      max-width: 330px;
+      max-width: 360px;
       padding: 0px 15px;
       margin: auto;
    }
@@ -404,7 +403,7 @@ h4 {
    /*================================search===*/
    .search-form {
       position: relative;
-      margin-top: 62px;
+      margin-top: 60px;
       margin-bottom: 60px;
    }
 
@@ -427,7 +426,7 @@ h4 {
    }
 
    .search-form-button {
-      background-image: url(svg/search.svg);
+      background-image: url(../svg/search.svg);
       background-position: center center;
       background-repeat: no-repeat;
       background-color: #b59f5b;
