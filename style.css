@@ -125,9 +125,9 @@ h4 {
    }
 
    /*=====header end===*/
-   /*=======================main===*/
-   /*=================trends===*/
-   /*=======trends title=======*/
+   /*======================main===*/
+   /*====================trends===*/
+   /*===trends title=======*/
    .news-posts-title {
       font-family: inherit;
       margin-bottom: 40px;
@@ -378,10 +378,17 @@ h4 {
 
    /*============article end===*/
    /*=======================section-sidebar===*/
+
+.sections {
+   display: flex;
+   width: 360px;
+   margin: 0px 15px;
+}
+
    .section-sidebar {
       max-width: 360px;
-      padding: 0px 15px;
-      margin: auto;
+      /* padding: 0px 15px; */
+      /* margin: auto;s */
    }
 
    .news-posts {
@@ -497,13 +504,12 @@ h4 {
    /*===mailing end=============================*/
    /*==================tags======================*/
    .tags-list {
-      max-width: 360px;
-      padding: 0px 15px;
-      margin: auto;
+      max-width: 330px;
    }
 
    .list {
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-items: center;
@@ -851,8 +857,8 @@ h4 {
 /*===================== Sidebar ==================================================================*/
 /*
 .sections {
-   width: 272px;
-   margin: 0px 0px 0px 0px;
+   width: 360px;
+   margin: 0px 15px;
 }
 
 .sidebar {
