@@ -460,8 +460,8 @@ h4 {
     border: 0;
   }
 
-  /*==search end====================================================================*/
-  /*=============mailing===========================================*/
+  /*==search end=============*/
+  /*=============mailing============*/
   .email__input {
     background-color: #f4f7f6;
     border: 1px solid #f4f7f6;
@@ -611,6 +611,12 @@ h4 {
     font-family: inherit;
     font-weight: 400;
   }
+   
+  .link-line {
+	font-family: inherit;
+	color: #baa667;
+	text-decoration: underline;
+  }
 
   .link {
     font-family: inherit;
@@ -645,6 +651,10 @@ h4 {
     align-items: flex-end;
   }
 
+  .old-price {
+	 text-decoration: line-through;
+  }
+
   .content-wrapper {
     padding: 0px 15px 0px 15px;
     max-width: 360px;
@@ -666,6 +676,62 @@ h4 {
   .picture-img {
     max-width: 330px;
   }
+  /*==================schop end===*/
+  /*==================================footer===*/
+.footer {
+   padding-bottom: 30px;
+   margin-top: 40px;
+}
+
+.container {
+   max-width: 360px;
+   margin: auto;
+   padding: 0 15px;
+}
+
+.footer__social {
+   display: flex;
+   justify-content: center;
+   padding: 30px 0;
+   background-color: #f4f7f6;
+}
+
+.footer__social_link {
+   width: 25px;
+   height: 25px;
+   display: block;
+   background-position: center center;
+   background-size: cover;
+}
+
+.footer__social_item {
+   margin-right: 25px;
+}
+
+.footer__social_item:last-child {
+   margin-right: 0;
+}
+
+.footer__copirate {
+   margin-top: 50px;
+   margin-bottom: 45px;
+   font-weight: 700;
+   font-size: 12px;
+   text-align: center;
+   color: #b59a4b;
+}
+
+.dribbble {
+   background-image: url(../svg/001-dribbble.svg);
+}
+
+.pin {
+   background-image: url(../svg/001-pinterest.svg);
+}
+
+.tum {
+   background-image: url(../svg/003-tumblr.svg);
+}
 }
 
 /* ======================================main end=== */
