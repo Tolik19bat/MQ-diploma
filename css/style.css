@@ -677,14 +677,16 @@ h4 {
     max-width: 330px;
   }
   /*==================schop end===*/
-  /*==================================footer===*/
-.footer {
+ 
+}
+ /*==================================footer===*/
+ .footer {
    padding-bottom: 30px;
-   margin-top: 40px;
+   margin-top: 60px;
 }
 
 .container {
-   max-width: 360px;
+   width: 1200px;
    margin: auto;
    padding: 0 15px;
 }
@@ -713,13 +715,14 @@ h4 {
 }
 
 .footer__copirate {
-   margin-top: 50px;
-   margin-bottom: 45px;
+   margin-top: 70px;
+   margin-bottom: 40px;
    font-weight: 700;
    font-size: 12px;
    text-align: center;
    color: #b59a4b;
 }
+
 
 .dribbble {
    background-image: url(../svg/001-dribbble.svg);
@@ -731,7 +734,6 @@ h4 {
 
 .tum {
    background-image: url(../svg/003-tumblr.svg);
-}
 }
 
 /* ======================================main end=== */
