@@ -707,6 +707,7 @@ h4 {
 		background-position: center, 0px;
 		position: relative;
 		box-sizing: border-box;
+		width: 100%;
 		max-width: 768px;
 		height: 390px;
 		z-index: 0;
@@ -934,12 +935,12 @@ h4 {
 	}
 
 	.list-content {
-		width: 390px;
+		max-width: 390px;
 		margin: 50px 35px 0px 0px;
 	}
 
 	.content {
-		width: 390px;
+		max-width: 390px;
 		box-sizing: border-box;
 
 	}
@@ -1231,6 +1232,10 @@ h4 {
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.schop-content {
+		width: 290px;
+		margin: 0 29px;
+	}
 
 	.schop-img {
 		width: 290px;
@@ -1313,7 +1318,7 @@ h4 {
 	}
 
 	.container {
-		width: 1200px;
+		max-width: 768px;
 		margin: auto;
 		padding: 0 15px;
 	}
@@ -1346,6 +1351,8 @@ h4 {
 		margin-bottom: 40px;
 		font-weight: 700;
 		font-size: 12px;
+		display: flex;
+		justify-content: center;
 		text-align: center;
 		color: #b59a4b;
 	}
