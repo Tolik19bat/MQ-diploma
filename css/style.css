@@ -1559,7 +1559,7 @@ h4 {
 /*================================ desctop ===========*/
 @media (min-width: 1200px) {
 	.header {
-		/* padding: 30px 5px; */
+		padding: 30px 5px;
 		background-image: url(../images/banner-bg.jpg);
 		background-size: cover;
 		background-color: #666;
@@ -1596,23 +1596,30 @@ h4 {
 	}
 
 	.header-navigation {
+		width: 1170px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
 
+	.header-burger {
+		display: none;
+	}
+
 	.header-menu-list {
+		position: relative;
 		display: flex;
 		flex-wrap: wrap;
 	}
 
 	.header-menu-item:not(:last-child) {
-		margin-right: 41px;
+		margin-right: 35px;
 	}
 
 	.header-menu-link {
 		color: #ede0e0;
 		text-transform: uppercase;
+		font-size: 10px;
 	}
 
 	.header-menu-link:hover {
@@ -1621,13 +1628,13 @@ h4 {
 	}
 
 	.header-title {
-		max-width: 800px;
+		max-width: 700px;
 		margin: auto;
 		padding: 100px 0px;
 		text-align: center;
 		color: #ffffff;
 		line-height: 1.7;
-		font-size: 45px;
+		font-size: 35px;
 		text-transform: uppercase;
 		font-family: "open sans bold", sans-serif;
 	}
@@ -1647,30 +1654,28 @@ h4 {
 	}
 
 	.news-posts-title {
-		font-size: 25px;
+		font-size: 22px;
+		font-weight: 700;
 	}
 
 	.news-posts-title::after {
 		content: "";
 		background-color: #e1d9bd;
-		margin: 10px auto 17px auto;
+		margin: 10px auto 25px auto;
 		display: block;
 		width: 65px;
-		height: 2px;
+		height: 3px;
 	}
 
 	/*====================trends===*/
-	.trend-picture {
-		min-height: 320px;
-	}
-
 	.box-trends {
-		width: 100%;
 		display: flex;
 		justify-content: center;
 	}
 
 	.box-pictures {
+		max-width: 1660px;
+		width: 100%;
 		display: flex;
 	}
 
@@ -1681,7 +1686,7 @@ h4 {
 		display: flex;
 		flex-direction: column-reverse;
 		position: relative;
-		width: 24.7%;
+		width: calc(25% - 2px);
 		margin-right: 2px;
 		z-index: 0;
 	}
@@ -1707,7 +1712,7 @@ h4 {
 		display: flex;
 		flex-direction: column-reverse;
 		position: relative;
-		width: 24.7%;
+		width: calc(25% - 2px);
 		margin-right: 2px;
 		z-index: 0;
 	}
@@ -1733,7 +1738,7 @@ h4 {
 		display: flex;
 		flex-direction: column-reverse;
 		position: relative;
-		width: 24.7%;
+		width: calc(25% - 2px);
 		margin-right: 2px;
 		z-index: 0;
 	}
@@ -1759,7 +1764,7 @@ h4 {
 		display: flex;
 		flex-direction: column-reverse;
 		position: relative;
-		width: 24.7%;
+		width: 25%;
 		z-index: 0;
 	}
 
@@ -1797,7 +1802,7 @@ h4 {
 		font-family: inherit;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 22px;
 	}
 
 
@@ -1868,7 +1873,7 @@ h4 {
 		color: #000000;
 		text-transform: uppercase;
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 	.title:hover {
@@ -1886,11 +1891,12 @@ h4 {
 
 	.post-date {
 		color: #989898;
-		font-size: 11px;
+		font-size: 12px;
 	}
 
 	.post-autor {
 		font-weight: 700;
+		font-size: 12px;
 		margin: 0px 0px 0px 15px;
 	}
 
@@ -1905,12 +1911,13 @@ h4 {
 
 	/* ============== main end === */
 	/*===================== Sidebar ==================================================================*/
-	.section-sidebar {
-		width: 270px;
+	.sidebar-title {
+		font-weight: 700;
+		font-size: 14px;
 	}
 
-	.sidebar {
-		font-size: 15px;
+	.section-sidebar {
+		width: 270px;
 	}
 
 	.figure-img {
@@ -1920,21 +1927,14 @@ h4 {
 	}
 
 	.post-date-sidebar {
-		margin-top: -5px;
-		margin-bottom: 5px;
-	}
-
-	h3 {
-		text-transform: uppercase;
-		font-weight: 700;
-		line-height: 1.2;
-		font-size: 14px;
+		margin-top: -8px;
 	}
 
 	.post-title {
 		color: #000;
 		font-weight: 700;
-		font-size: 13px;
+		font-size: 14px;
+		line-height: 1;
 	}
 
 	.post-title:hover {
@@ -1966,7 +1966,7 @@ h4 {
 		border-radius: 3px;
 		padding-left: 15px;
 		position: relative;
-		font-size: 10px;
+		font-size: 14px;
 		outline: none;
 		width: 222px;
 		height: 48px;
@@ -2032,9 +2032,9 @@ h4 {
 		background-color: #b59a4b;
 		text-transform: uppercase;
 		color: #ffffff;
-		font-size: 700;
+		font-weight : 700;
 		font-family: inherit;
-		margin-top: 16px;
+		margin-top: 15px;
 		border-radius: 3px;
 		cursor: pointer;
 	}
@@ -2089,7 +2089,8 @@ h4 {
 
 	.topic-item-link {
 		color: #000;
-		font-size: 15px;
+		font-weight: 700;
+		font-size: 14px;
 	}
 
 	.topic-item-link:hover {
@@ -2100,7 +2101,7 @@ h4 {
 		content: '';
 		position: absolute;
 		width: 100%;
-		height: 2px;
+		height: 3px;
 		top: 35px;
 		background-color: #eeeeee;
 	}
@@ -2108,12 +2109,106 @@ h4 {
 	.topic-item-counter {
 		position: relative;
 		top: 0;
-		font-size: 12px;
+		font-size: 10px;
 		color: #b59a4b;
 		margin-top: -8px;
 	}
 
-	/* ===================== topic end ===*/
+	/* ==================== topic end ===*/
+	/*===================shop===============*/
+	.schop {
+		width: 100%;
+		padding: 0px 35px;
+		margin: auto;
+		display: flex;
+	}
+
+	.schop-content {
+		width: 290px;
+		margin: 0 29px;
+	}
+
+	.schop-img {
+		width: 290px;
+		margin: auto;
+	}
+
+	.schop-content-picture {
+		background-color: #666;
+		width: 290px;
+		height: 290px;
+	}
+
+	.schop-post {
+		padding: 20px 20px 25px 20px;
+		width: 336px;
+		height: 260px;
+		left: -23px;
+		top: -40px;
+		border: 3px solid #d3c59d;
+		border-radius: 2px;
+		position: relative;
+	}
+
+	.schop-post-title {
+		display: flex;
+		text-align: start;
+		margin-top: 18px;
+		margin-bottom: 6px;
+	}
+
+	.post-txt {
+		margin-bottom: 25px;
+		line-height: 1.5;
+		font-family: inherit;
+		font-weight: 400;
+	}
+
+	.link-line {
+		font-family: inherit;
+		color: #baa667;
+		text-decoration: underline;
+	}
+
+	.link {
+		font-family: inherit;
+		color: #baa667;
+	}
+
+	.button {
+		width: 150px;
+		height: 50px;
+	}
+
+	.button-schop {
+		background-color: #b59a4b;
+		text-transform: uppercase;
+		font-family: inherit;
+		border-radius: 3px;
+		color: #ffffff;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		font-size: 700;
+	}
+
+	.subscription_button:hover {
+		background-color: #292314;
+	}
+
+	.schop-container {
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.old-price {
+		text-decoration: line-through;
+	}
+
+	/*==================schop end===*/
+
 	/*===================shop===============*/
 	.schop {
 		max-width: 1200px;
