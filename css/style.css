@@ -47,6 +47,7 @@ h3 {
 h4 {
 	text-transform: uppercase;
 	text-align: center;
+	line-height: 1;
 }
 
 /* ===== body end ==========*/
@@ -70,7 +71,6 @@ h4 {
 
 	/*=======header===*/
 	.page {
-		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -83,7 +83,6 @@ h4 {
 		background-color: #666666;
 		background-size: cover;
 		position: relative;
-		max-width: 640px;
 		width: 100%;
 		display: block;
 		margin: auto;
@@ -106,8 +105,8 @@ h4 {
 
 	.header-container {
 		display: flex;
-		justify-content: center;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		position: relative;
 		padding: 0px 15px;
@@ -171,8 +170,9 @@ h4 {
 		text-align: center;
 		color: #ffffff;
 		line-height: 1.7;
-		font-size: 24px;
+		font-size: 22px;
 		max-width: 260px;
+		width: 100%;
 	}
 
 	/*=====header end===*/
@@ -198,15 +198,14 @@ h4 {
 		margin: 10px auto 17px auto;
 		display: block;
 		width: 65px;
-		height: 2px;
+		height: 3px;
 	}
 
 	/*=====trends title end===============*/
-	/*====================trends===*/
 	.box-trends {
+	/*====================trends===*/
 		display: flex;
 		justify-content: center;
-		width: 100%;
 	}
 
 	.box-pictures {
@@ -214,7 +213,8 @@ h4 {
 	}
 
 	.trend-picture {
-		min-height: 230px;
+		width: 100%;
+		/* min-height: 230px; */
 	}
 
 	/*=================green garden===*/
@@ -225,8 +225,9 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0 auto 4px auto;
 		position: relative;
-		max-width: 360px;
-		height: 230px;
+		/* max-width: 360px; */
+		width: 100%;
+		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -240,7 +241,7 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		height: 232px;
+		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -254,8 +255,9 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0px auto 5px auto;
 		position: relative;
-		max-width: 360px;
-		height: 230px;
+		/* max-width: 360px; */
+		width: 100%;
+		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -267,13 +269,13 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		height: 232px;
+		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
 	}
 
-	/*=========first trip===*/
+	/*======================================first trip===*/
 	.box-trip {
 		background-color: #b8bbb1;
 		background-size: cover;
@@ -281,8 +283,9 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0 auto 4px auto;
 		position: relative;
-		max-width: 360px;
-		height: 230px;
+		/* max-width: 360px; */
+		width: 100%;
+		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -294,13 +297,13 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		height: 232px;
+		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
 	}
 
-	/*=======================vitamins===*/
+	/*==================================vitamins===*/
 	.box-vitamins {
 		background-color: #b8bbb1;
 		background-size: cover;
@@ -308,8 +311,9 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0 auto 4px auto;
 		position: relative;
-		max-width: 360px;
-		height: 230px;
+		width: 100%;
+		/* max-width: 360px; */
+		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -321,7 +325,7 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		height: 232px;
+		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -346,41 +350,52 @@ h4 {
 		font-family: inherit;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 20px;
 	}
 
-	/*==common title end===*/
+	/*==common trend end===*/
 	/*==========================================main===*/
 	/* ===============article===*/
 	.content-wrapper {
 		display: flex;
 		flex-direction: column;
-		padding: 0px 15px 0px 15px;
+		padding: 0px 15px;
 		max-width: 360px;
-		margin: auto;
+		width: 100%;
+		/* margin: auto; */
 	}
 
 	.content {
+		display: flex;
+		flex-direction: column;
 		box-sizing: border-box;
 		margin: 35px 0 20px 0;
-		max-width: 330px;
+		/* max-width: 330px; */
 	}
 
 	.content-picture {
+		display: flex;
 		background-color: #666666;
-		width: 330px;
-		height: 254px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		/* width: 330px; */
+		/* height: 254px; */
 	}
 
 	.content-picture-img {
-		max-width: 330px;
+		/* max-width: 330px; */
+		width: 100%;
 	}
 
 	.content-text {
-		max-width: 330px;
+		display: flex;
+		flex-direction: column;
+		/* max-width: 330px; */
 	}
 
 	.row-tags {
+		display: flex;
 		margin-top: 15px;
 		margin-bottom: 5px;
 	}
@@ -402,12 +417,8 @@ h4 {
 		margin: 0px 20px 0px 0px;
 	}
 
-	.item-tag-link:hover {
-		text-decoration: underline;
-		color: #b59a4b;
-	}
-
 	.title {
+		display: flex;
 		text-transform: uppercase;
 		color: #000000;
 		font-weight: 700;
@@ -2032,7 +2043,7 @@ h4 {
 		background-color: #b59a4b;
 		text-transform: uppercase;
 		color: #ffffff;
-		font-weight : 700;
+		font-weight: 700;
 		font-family: inherit;
 		margin-top: 15px;
 		border-radius: 3px;
@@ -2117,105 +2128,12 @@ h4 {
 	/* ==================== topic end ===*/
 	/*===================shop===============*/
 	.schop {
-		width: 100%;
-		padding: 0px 35px;
-		margin: auto;
-		display: flex;
-	}
-
-	.schop-content {
-		width: 290px;
-		margin: 0 29px;
-	}
-
-	.schop-img {
-		width: 290px;
-		margin: auto;
-	}
-
-	.schop-content-picture {
-		background-color: #666;
-		width: 290px;
-		height: 290px;
-	}
-
-	.schop-post {
-		padding: 20px 20px 25px 20px;
-		width: 336px;
-		height: 260px;
-		left: -23px;
-		top: -40px;
-		border: 3px solid #d3c59d;
-		border-radius: 2px;
-		position: relative;
-	}
-
-	.schop-post-title {
-		display: flex;
-		text-align: start;
-		margin-top: 18px;
-		margin-bottom: 6px;
-	}
-
-	.post-txt {
-		margin-bottom: 25px;
-		line-height: 1.5;
-		font-family: inherit;
-		font-weight: 400;
-	}
-
-	.link-line {
-		font-family: inherit;
-		color: #baa667;
-		text-decoration: underline;
-	}
-
-	.link {
-		font-family: inherit;
-		color: #baa667;
-	}
-
-	.button {
-		width: 150px;
-		height: 50px;
-	}
-
-	.button-schop {
-		background-color: #b59a4b;
-		text-transform: uppercase;
-		font-family: inherit;
-		border-radius: 3px;
-		color: #ffffff;
-		cursor: pointer;
-		width: 150px;
-		height: 50px;
-		font-size: 700;
-	}
-
-	.subscription_button:hover {
-		background-color: #292314;
-	}
-
-	.schop-container {
-		margin-bottom: 10px;
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-	}
-
-	.old-price {
-		text-decoration: line-through;
-	}
-
-	/*==================schop end===*/
-
-	/*===================shop===============*/
-	.schop {
 		max-width: 1200px;
+		width: 100%;
 		padding: 0px 15px;
 		margin: auto;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
 	.schop-content {
@@ -2302,16 +2220,18 @@ h4 {
 	}
 
 	/*==================schop end===*/
-	/* ===================================footer================================================== */
+	/* ===================================footer===== */
 	.footer {
-		width: 100%;
-
+		display: flex;
+		justify-content: center;
 	}
 
 	.container {
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
+		max-width: 1200px;
+		width: 100%;
 		padding: 0 15px;
 	}
 
@@ -2333,8 +2253,6 @@ h4 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		/* margin-top: 70px; */
-		/* margin-bottom: 40px; */
 		font-weight: 700;
 		font-size: 12px;
 		text-align: center;
