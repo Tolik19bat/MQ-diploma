@@ -523,14 +523,12 @@ h4 {
 	}
 
 	.content-picture-img {
-		/* max-width: 330px; */
 		width: 100%;
 	}
 
 	.content-text {
 		display: flex;
 		flex-direction: column;
-		/* max-width: 330px; */
 	}
 
 	.row-tags {
@@ -933,9 +931,8 @@ h4 {
 		display: flex;
 		justify-content: center;
 	}
-
-	/*==================footer end===*/
 }
+/*==================footer end===*/
 
 /*=================================max-width: 640px===mobile end===*/
 @media {}
