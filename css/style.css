@@ -69,7 +69,7 @@ h4 {
 /*=================================max-width: 640px===mobile===*/
 @media (max-width: 640px) {
 
-	/*=======header===*/
+	/*====================header===*/
 	.page {
 		display: flex;
 		flex-direction: column;
@@ -223,21 +223,9 @@ h4 {
 		cursor: pointer;
 	}
 
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		padding: 0;
-		border: 0;
-		clip: rect(0 0 0 0);
-		overflow: hidden;
-	}
-
 	.form {
 		position: relative;
 	}
-
 
 	.form-group {
 		display: block;
@@ -370,8 +358,8 @@ h4 {
 	}
 
 	/*=====trends title end===============*/
-	.box-trends {
 		/*====================trends===*/
+	.box-trends {
 		display: flex;
 		justify-content: center;
 	}
@@ -382,7 +370,6 @@ h4 {
 
 	.trend-picture {
 		width: 100%;
-		/* min-height: 230px; */
 	}
 
 	/*=================green garden===*/
@@ -393,9 +380,7 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0 auto 4px auto;
 		position: relative;
-		/* max-width: 360px; */
 		width: 100%;
-		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -409,7 +394,6 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -423,9 +407,7 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0px auto 5px auto;
 		position: relative;
-		/* max-width: 360px; */
 		width: 100%;
-		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -437,7 +419,6 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -451,9 +432,7 @@ h4 {
 		flex-direction: column-reverse;
 		margin: 0 auto 4px auto;
 		position: relative;
-		/* max-width: 360px; */
 		width: 100%;
-		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -465,7 +444,6 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -480,8 +458,6 @@ h4 {
 		margin: 0 auto 4px auto;
 		position: relative;
 		width: 100%;
-		/* max-width: 360px; */
-		/* height: 230px; */
 		z-index: 0;
 	}
 
@@ -493,7 +469,6 @@ h4 {
 		left: 0px;
 		top: 0px;
 		width: 100%;
-		/* height: 232px; */
 		bottom: 0px;
 		opacity: 0.6;
 		z-index: 1;
@@ -530,7 +505,6 @@ h4 {
 		padding: 0px 15px;
 		max-width: 360px;
 		width: 100%;
-		/* margin: auto; */
 	}
 
 	.content {
@@ -538,7 +512,6 @@ h4 {
 		flex-direction: column;
 		box-sizing: border-box;
 		margin: 35px 0 20px 0;
-		/* max-width: 330px; */
 	}
 
 	.content-picture {
@@ -547,8 +520,6 @@ h4 {
 		left: 0;
 		top: 0;
 		width: 100%;
-		/* width: 330px; */
-		/* height: 254px; */
 	}
 
 	.content-picture-img {
@@ -706,14 +677,14 @@ h4 {
 	}
 
 	.visually-hidden {
-		clip: rect(0 0 0 0);
 		position: absolute;
-		overflow: hidden;
 		width: 1px;
 		height: 1px;
 		margin: -1px;
 		padding: 0;
 		border: 0;
+		clip: rect(0 0 0 0);
+		overflow: hidden;
 	}
 
 	/*==search end=============*/
@@ -728,7 +699,6 @@ h4 {
 		outline: none;
 		width: 330px;
 		height: 47px;
-
 	}
 
 	.email__input:focus {
@@ -1136,21 +1106,9 @@ h4 {
 		cursor: pointer;
 	}
 
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		padding: 0;
-		border: 0;
-		clip: rect(0 0 0 0);
-		overflow: hidden;
-	}
-
 	.form {
 		position: relative;
 	}
-
 
 	.form-group {
 		display: block;
@@ -1698,7 +1656,6 @@ h4 {
 		flex-wrap: wrap;
 	}
 
-
 	.link-tag-list {
 		color: #000;
 		font-size: 10px;
@@ -1880,8 +1837,6 @@ h4 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		/* margin-top: 70px; */
-		/* margin-bottom: 40px; */
 		font-weight: 700;
 		font-size: 12px;
 		text-align: center;
@@ -2033,21 +1988,9 @@ h4 {
 		cursor: pointer;
 	}
 
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		padding: 0;
-		border: 0;
-		clip: rect(0 0 0 0);
-		overflow: hidden;
-	}
-
 	.form {
 		position: relative;
 	}
-
 
 	.form-group {
 		display: block;
@@ -2155,7 +2098,7 @@ h4 {
 	}
 
 	/*===popup end=====*/
-	/*===trends title=======*/
+	/*================trends title=======*/
 	.news-box-title {
 		display: flex;
 		justify-content: center;
@@ -2298,7 +2241,6 @@ h4 {
 
 	/*==vitamins end===*/
 	/*================common trends=====*/
-
 	.trend-container {
 		border: 2px solid #b59a4b;
 		padding: 0px 25px 0px 25px;
@@ -2319,7 +2261,6 @@ h4 {
 		font-size: 18px;
 		line-height: 24px;
 	}
-
 
 	/*==common trend end==*/
 	/*======================== MAIN =================================================*/
@@ -2573,7 +2514,6 @@ h4 {
 		display: flex;
 		flex-wrap: wrap;
 	}
-
 
 	.link-tag-list {
 		color: #000;
