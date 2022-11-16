@@ -926,10 +926,9 @@ h4 {
 	/*===========================footer===*/
 	.footer {
 		width: 100%;
-
 	}
 
-	.container {
+	.footer-container {
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
@@ -954,8 +953,6 @@ h4 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		/* margin-top: 70px; */
-		/* margin-bottom: 40px; */
 		font-weight: 700;
 		font-size: 12px;
 		text-align: center;
@@ -1102,7 +1099,7 @@ h4 {
 		bottom: 0;
 		background-color: rgba(0, 0, 0, 0.6);
 		z-index: 4;
-		/*display: none;*/
+		/* display: none; */
 	}
 
 	.popup-container {
@@ -1113,18 +1110,18 @@ h4 {
 
 	.popup-content {
 		margin: auto;
-		width: 330px;
+		width: 390px;
 		background-color: #fff;
 		color: #000000;
 		position: relative;
-		padding: 30px 20px;
+		padding: 50px 30px;
 	}
 
 	.popup-title {
 		font-family: inherit;
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.close-popup {
@@ -1169,7 +1166,7 @@ h4 {
 		-moz-appearance: none;
 		border: none;
 		outline: none;
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
 		color: rgba(0, 0, 0, 0.50);
@@ -1178,7 +1175,7 @@ h4 {
 	}
 
 	.field-label {
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
 		display: block;
@@ -1199,8 +1196,8 @@ h4 {
 
 	.radio-group-active {
 		display: inline-block;
-		width: 25px;
-		height: 25px;
+		width: 23px;
+		height: 23px;
 		position: absolute;
 	}
 
@@ -1211,8 +1208,8 @@ h4 {
 		background-repeat: no-repeat;
 		background-position: center center;
 		display: block;
-		width: 26px;
-		height: 26px;
+		width: 23px;
+		height: 23px;
 		opacity: 0;
 		transition: .3s;
 	}
@@ -1227,8 +1224,8 @@ h4 {
 		content: "";
 		background-image: url(../svg/form-empty-circle.svg);
 		display: block;
-		width: 26px;
-		height: 26px;
+		width: 23px;
+		height: 23px;
 		margin-right: 5px;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -1237,16 +1234,16 @@ h4 {
 
 	.radio-group-text {
 		margin-right: 30px;
-		font-size: 13px;
+		font-size: 14px;
 		font-family: inherit;
 	}
 
 	.field-textarea {
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
 		color: rgba(0, 0, 0, 0.54);
-		min-width: 290px;
+		min-width: 330px;
 		min-height: 130px;
 		background-color: #f4f7f6;
 		border: none;
@@ -1256,7 +1253,7 @@ h4 {
 	}
 
 	.popup-button {
-		width: 290px;
+		min-width: 330px;
 	}
 
 	/*===popup end=====*/
@@ -1858,7 +1855,7 @@ h4 {
 
 	}
 
-	.container {
+	.footer-container {
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
@@ -1947,6 +1944,10 @@ h4 {
 		align-items: center;
 	}
 
+	.header-logo {
+		height: 40px;
+	}
+
 	.header-burger {
 		display: none;
 	}
@@ -1964,7 +1965,7 @@ h4 {
 	.header-menu-link {
 		color: #ede0e0;
 		text-transform: uppercase;
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	.header-menu-link:hover {
@@ -1978,8 +1979,8 @@ h4 {
 		padding: 100px 0px;
 		text-align: center;
 		color: #ffffff;
-		line-height: 1.7;
-		font-size: 35px;
+		line-height: 75px;
+		font-size: 45px;
 		text-transform: uppercase;
 		font-family: "open sans bold", sans-serif;
 	}
@@ -1995,7 +1996,7 @@ h4 {
 		bottom: 0;
 		background-color: rgba(0, 0, 0, 0.6);
 		z-index: 4;
-		display: none;
+		/* display: none; */
 	}
 
 	.popup-container {
@@ -2006,18 +2007,18 @@ h4 {
 
 	.popup-content {
 		margin: auto;
-		width: 330px;
+		width: 390px;
 		background-color: #fff;
 		color: #000000;
 		position: relative;
-		padding: 30px 20px;
+		padding: 50px 30px;
 	}
 
 	.popup-title {
 		font-family: inherit;
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.close-popup {
@@ -2062,7 +2063,7 @@ h4 {
 		-moz-appearance: none;
 		border: none;
 		outline: none;
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: 400;
 		font-family: inherit;
 		color: rgba(0, 0, 0, 0.50);
@@ -2071,7 +2072,7 @@ h4 {
 	}
 
 	.field-label {
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
 		display: block;
@@ -2092,8 +2093,8 @@ h4 {
 
 	.radio-group-active {
 		display: inline-block;
-		width: 25px;
-		height: 25px;
+		width: 20px;
+		height: 20px;
 		position: absolute;
 	}
 
@@ -2104,8 +2105,8 @@ h4 {
 		background-repeat: no-repeat;
 		background-position: center center;
 		display: block;
-		width: 26px;
-		height: 26px;
+		width: 20px;
+		height: 20px;
 		opacity: 0;
 		transition: .3s;
 	}
@@ -2120,8 +2121,8 @@ h4 {
 		content: "";
 		background-image: url(../svg/form-empty-circle.svg);
 		display: block;
-		width: 26px;
-		height: 26px;
+		width: 20px;
+		height: 20px;
 		margin-right: 5px;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -2129,18 +2130,19 @@ h4 {
 	}
 
 	.radio-group-text {
-		margin-right: 30px;
-		font-size: 13px;
+		margin-right: 15px;
+		font-size: 14px;
 		font-family: inherit;
 	}
 
 	.field-textarea {
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
 		color: rgba(0, 0, 0, 0.54);
-		min-width: 290px;
-		min-height: 130px;
+		max-width: 330px;
+		width: 100%;
+		height: 130px;
 		background-color: #f4f7f6;
 		border: none;
 		outline: none;
@@ -2149,7 +2151,7 @@ h4 {
 	}
 
 	.popup-button {
-		width: 290px;
+		min-width: 330px;
 	}
 
 	/*===popup end=====*/
@@ -2162,7 +2164,7 @@ h4 {
 	.news-items-title {
 		display: flex;
 		align-items: flex-end;
-		height: 100px;
+		height: 120px;
 	}
 
 	.news-posts-title {
@@ -2306,7 +2308,7 @@ h4 {
 		align-items: flex-start;
 		flex-direction: column;
 		position: absolute;
-		z-index: 30;
+		z-index: 3;
 	}
 
 	.trend-title {
@@ -2314,7 +2316,8 @@ h4 {
 		font-family: inherit;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 15px;
+		font-size: 21px;
+		line-height: 24px;
 	}
 
 
@@ -2333,36 +2336,36 @@ h4 {
 	}
 
 	.list-content {
-		max-width: 810px;
-		margin: 50px 100px 0 0;
+		max-width: 800px;
+		margin: 65px 100px 0 0;
 	}
 
 	.content {
 		box-sizing: border-box;
 		display: flex;
-		margin-bottom: 50px;
+		margin-bottom: 60px;
 	}
 
 	.content-picture {
 		background-color: #666666;
-		width: 390px;
+		width: 380px;
 		height: 300px;
 	}
 
 	.content-picture-img {
-		width: 390px;
+		width: 380px;
 		height: 300px;
 	}
 
 	.content-text {
-		width: 390px;
+		width: 370px;
 		margin-left: 30px;
 	}
 
 	.list-tags {
 		display: flex;
 		flex-wrap: wrap;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 
 	.tags {
@@ -2398,7 +2401,7 @@ h4 {
 
 	h2 {
 		font-weight: 700;
-		margin: 0px 0px 35px 0px;
+		margin: 0px 0px 25px 0px;
 	}
 
 	.post-info {
@@ -2417,7 +2420,7 @@ h4 {
 	}
 
 	.post-text>p {
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 1.5;
 	}
 
@@ -2447,6 +2450,7 @@ h4 {
 	}
 
 	.post-title {
+		text-transform: uppercase;
 		color: #000;
 		font-weight: 700;
 		font-size: 14px;
@@ -2459,7 +2463,7 @@ h4 {
 
 	.news-post {
 		display: flex;
-		margin-bottom: 20px;
+		margin-bottom: 22px;
 		height: 70px;
 	}
 
@@ -2472,7 +2476,7 @@ h4 {
 
 	.search-form {
 		position: relative;
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.search-form-input {
@@ -2550,7 +2554,7 @@ h4 {
 		color: #ffffff;
 		font-weight: 700;
 		font-family: inherit;
-		margin-top: 15px;
+		margin-top: 20px;
 		border-radius: 3px;
 		cursor: pointer;
 	}
@@ -2576,11 +2580,11 @@ h4 {
 		font-size: 10px;
 		font-weight: 700;
 		text-transform: uppercase;
-		line-height: 4;
-		padding: 4px 11px;
+		line-height: 42px;
+		padding: 8px 16px;
 		border: 4px solid #eeeeee;
 		border-radius: 1px;
-		margin-right: 10px;
+		margin-right: 5px;
 	}
 
 	.link-tag-list:hover {
@@ -2606,7 +2610,7 @@ h4 {
 	.topic-item-link {
 		color: #000;
 		font-weight: 700;
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	.topic-item-link:hover {
@@ -2633,7 +2637,7 @@ h4 {
 	/* ==================== topic end ===*/
 	/*===================shop===============*/
 	.schop {
-		max-width: 1200px;
+		max-width: 1170px;
 		width: 100%;
 		padding: 0px 15px;
 		margin: auto;
@@ -2731,11 +2735,11 @@ h4 {
 		justify-content: center;
 	}
 
-	.container {
+	.footer-container {
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
-		max-width: 1200px;
+		max-width: 1170px;
 		width: 100%;
 		padding: 0 15px;
 	}
@@ -2759,7 +2763,7 @@ h4 {
 		flex-direction: column;
 		justify-content: center;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 13px;
 		text-align: center;
 		color: #999999;
 	}
