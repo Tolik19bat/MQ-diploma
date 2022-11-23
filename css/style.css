@@ -488,7 +488,7 @@ h4 {
 		z-index: 30;
 	}
 
-	.trend-title {
+	.trend-title-text {
 		text-transform: uppercase;
 		font-family: inherit;
 		color: #ffffff;
@@ -516,7 +516,7 @@ h4 {
 
 	.content-picture {
 		display: flex;
-		background-color: #666666;
+		background-color: #eff6f1;
 		left: 0;
 		top: 0;
 		width: 100%;
@@ -1379,7 +1379,7 @@ h4 {
 		z-index: 30;
 	}
 
-	.trend-title {
+	.trend-title-text {
 		text-transform: uppercase;
 		font-family: inherit;
 		color: #ffffff;
@@ -1412,7 +1412,7 @@ h4 {
 
 	.content-picture {
 		display: flex;
-		background-color: #666666;
+		background-color: #eff6f1;
 		left: 0;
 		top: 0;
 		max-width: 100%;
@@ -1735,9 +1735,11 @@ h4 {
 	}
 
 	.schop-post {
+		display: flex;
+		flex-direction: column;
 		padding: 20px 20px 25px 20px;
 		width: 336px;
-		height: 280px;
+		min-height: 290px;
 		left: -23px;
 		top: -40px;
 		border: 3px solid #d3c59d;
@@ -2250,13 +2252,17 @@ h4 {
 		z-index: 3;
 	}
 
-	.trend-title {
+	.trend-title-text {
 		text-transform: uppercase;
 		font-family: inherit;
 		color: #ffffff;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 24px;
+	}
+
+		.trend-title-text:hover {
+		text-decoration: underline;
 	}
 
 	/*==common trend end==*/
@@ -2285,7 +2291,7 @@ h4 {
 	}
 
 	.content-picture {
-		background-color: #666666;
+		background-color: #eff6f1;
 		width: 380px;
 		height: 300px;
 	}
@@ -2598,9 +2604,11 @@ h4 {
 	}
 
 	.schop-post {
+		display: flex;
+		flex-direction: column;
 		padding: 20px 20px 25px 20px;
 		width: 336px;
-		height: 280px;
+		min-height: 290px;
 		left: -23px;
 		top: -40px;
 		border: 3px solid #d3c59d;
