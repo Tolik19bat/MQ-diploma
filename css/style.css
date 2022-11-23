@@ -231,7 +231,7 @@ h4 {
 		display: block;
 	}
 
-	.select {
+	.field-variants {
 		background-image: url(../svg/form-arrows.svg);
 		background-repeat: no-repeat;
 		background-position: right 20px center;
@@ -249,7 +249,7 @@ h4 {
 		padding: 18px 20px;
 	}
 
-	.field-label {
+	.field-title {
 		font-size: 13px;
 		font-weight: 400;
 		font-family: inherit;
@@ -1111,7 +1111,7 @@ h4 {
 		display: block;
 	}
 
-	.select {
+	.field-variants {
 		background-image: url(../svg/form-arrows.svg);
 		background-repeat: no-repeat;
 		background-position: right 20px center;
@@ -1129,7 +1129,7 @@ h4 {
 		padding: 18px 20px;
 	}
 
-	.field-label {
+	.field-title {
 		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
@@ -1993,7 +1993,7 @@ h4 {
 		display: block;
 	}
 
-	.select {
+	.field-variants {
 		background-image: url(../svg/form-arrows.svg);
 		background-repeat: no-repeat;
 		background-position: right 20px center;
@@ -2011,7 +2011,7 @@ h4 {
 		padding: 18px 20px;
 	}
 
-	.field-label {
+	.field-title {
 		font-size: 14px;
 		font-weight: 400;
 		font-family: inherit;
