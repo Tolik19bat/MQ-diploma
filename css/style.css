@@ -80,7 +80,7 @@ h4 {
 		background-image: url(../images/banner-mobile.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-color: #666666;
+		background-color: #eff6f1;
 		background-size: cover;
 		position: relative;
 		width: 100%;
@@ -401,7 +401,7 @@ h4 {
 
 	/*=======================beautiful picture===*/
 	.box-beautiful-pictures {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -426,7 +426,7 @@ h4 {
 
 	/*======================================first trip===*/
 	.box-trip {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -451,7 +451,7 @@ h4 {
 
 	/*==================================vitamins===*/
 	.box-vitamins {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -597,7 +597,7 @@ h4 {
 	/*============article end===*/
 	/*=======================section-sidebar===*/
 	.figure-img {
-		background-color: #666;
+		background-color: #eff6f1;
 		width: 70px;
 		height: 70px;
 	}
@@ -815,7 +815,7 @@ h4 {
 
 	.schop-content-picture {
 		display: flex;
-		background-color: #666;
+		background-color: #eff6f1;
 		top: 0;
 		left: 0;
 		max-width: 285px;
@@ -950,7 +950,7 @@ h4 {
 		padding: 35px 35px;
 		background-image: url(../images/banner-bg-tablet.jpg);
 		background-size: cover;
-		background-color: #666666;
+		background-color: #eff6f1;
 		background-repeat: no-repeat;
 		background-position: center, 0px;
 		position: relative;
@@ -1284,7 +1284,7 @@ h4 {
 
 	/*=======================beautiful picture===*/
 	.box-beautiful-pictures {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -1312,7 +1312,7 @@ h4 {
 
 	/*=========first trip===*/
 	.box-trip {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -1340,7 +1340,7 @@ h4 {
 
 	/*=======================vitamins===*/
 	.box-vitamins {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -1512,7 +1512,7 @@ h4 {
 	}
 
 	.figure-img {
-		background-color: #666;
+		background-color: #eff6f1;
 		width: 70px;
 		height: 70px;
 	}
@@ -1730,7 +1730,7 @@ h4 {
 	}
 
 	.schop-content-picture {
-		background-color: #666;
+		background-color: #eff6f1;
 		width: 290px;
 		height: 290px;
 	}
@@ -1860,7 +1860,7 @@ h4 {
 		padding: 30px 5px;
 		background-image: url(../images/banner-bg.jpg);
 		background-size: cover;
-		background-color: #666;
+		background-color: #eff6f1;
 		background-repeat: no-repeat;
 		background-position: center, 0px;
 		position: relative;
@@ -2165,7 +2165,7 @@ h4 {
 
 	/*=======================beautiful picture===*/
 	.box-beautiful-pictures {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -2191,7 +2191,7 @@ h4 {
 
 	/*=========first trip===*/
 	.box-trip {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -2217,7 +2217,7 @@ h4 {
 
 	/*=======================vitamins===*/
 	.box-vitamins {
-		background-color: #b8bbb1;
+		background-color: #eff6f1;
 		background-size: cover;
 		display: flex;
 		flex-direction: column-reverse;
@@ -2386,7 +2386,7 @@ h4 {
 	}
 
 	.figure-img {
-		background-color: #666;
+		background-color: #eff6f1;
 		width: 70px;
 		height: 70px;
 	}
@@ -2600,7 +2600,7 @@ h4 {
 	}
 
 	.schop-content-picture {
-		background-color: #666;
+		background-color: #eff6f1;
 		width: 290px;
 		max-height: 290px;
 	}
