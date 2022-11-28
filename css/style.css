@@ -1467,7 +1467,7 @@ h4 {
 	.title:hover {
 		color: #b59f5b;
 	}
-
+	
 	.post-date {
 		color: #989898;
 		margin-right: 15px;
@@ -2259,7 +2259,7 @@ h4 {
 		font-family: inherit;
 		color: #ffffff;
 		font-weight: 700;
-		font-size: 18px;
+		font-size: 20px;
 		line-height: 24px;
 	}
 
@@ -2315,7 +2315,7 @@ h4 {
 	}
 
 	.tags {
-		margin-top: 35px;
+		margin-top: 25px;
 	}
 
 	.item-tag-link {
@@ -2346,7 +2346,6 @@ h4 {
 	}
 
 	h2 {
-		font-weight: 700;
 		margin: 0px 0px 25px 0px;
 	}
 
