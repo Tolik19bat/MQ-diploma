@@ -563,6 +563,7 @@ h4 {
 	}
 
 	.post-info {
+		display: inline-flex;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
@@ -1389,6 +1390,10 @@ h4 {
 		margin: 0px 0px 35px 0px;
 	}
 
+	.trend-title-text:hover {
+		text-decoration: underline;
+	}
+
 	h2 {
 		margin-bottom: 25px;
 	}
@@ -1472,6 +1477,11 @@ h4 {
 		color: #b59f5b;
 	}
 	
+	.post-info {
+		display: inline-flex;
+		margin-bottom: 5px;
+	}
+
 	.post-date {
 		color: #989898;
 		margin-right: 15px;
@@ -2354,6 +2364,7 @@ h4 {
 	}
 
 	.post-info {
+		display: inline-flex;
 		margin-bottom: 50px;
 	}
 
